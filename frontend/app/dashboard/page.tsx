@@ -188,7 +188,7 @@ export default function DashboardPage() {
                                                 borderRadius: "8px",
                                                 color: "#fff"
                                             }}
-                                            formatter={(value: number) => [formatCurrency(value), "Penjualan"]}
+                                            formatter={(value) => number) => [formatCurrency(Numbet(value || 0)), "Penjualan"]}
                                         />
                                         <Area
                                             type="monotone"
