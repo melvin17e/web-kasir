@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database (local SQLite)
+*.db
+*.db-journal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Upload files (optional - uncomment if you don't want to track uploads)
+# uploads/
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel
+
+# Debug
+*.map
