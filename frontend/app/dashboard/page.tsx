@@ -189,9 +189,9 @@ export default function DashboardPage() {
                                                 color: "#fff"
                                             }}
                                             formatter={(value) => [
-  formatCurrency(Number(value ?? 0)),
-  "Penjualan"
-]}
+                                                formatCurrency(Number(value ?? 0)),
+                                                "Penjualan"
+                                            ]}
                                         />
                                         <Area
                                             type="monotone"
